@@ -4,7 +4,7 @@ let started = false;
 
 export function start() {
   started = true;
-  reroute();
+  return reroute();
 }
 
 export function isStarted() {
